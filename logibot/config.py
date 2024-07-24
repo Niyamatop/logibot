@@ -14,21 +14,21 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 792109647  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "cl_me_logesh"
-    SUPPORT_CHAT = "logi_channel"  # Your own group for support, do not add the @
+    API_ID = 28298365  # integer value, dont use ""
+    API_HASH = "9647ab7fc03a8a93f701a5528b2f206e"
+    TOKEN = "7346455769:AAG4S9buEgIlCfwT-Vk80PaODeILZ_hLWlw"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 5536168611  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "DARKCURSED0"
+    SUPPORT_CHAT = "AnimeSouls0"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001253661229
+        -1002193507705
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001190806654
+        -1002239117016
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database module
+    SQLALCHEMY_DATABASE_URI = "postgres://avnadmin:AVNS_gwvtPgMcQ7IX0qwaCG9@freedb-mayrice01.i.aivencloud.com:14358/defaultdb?sslmode=require"  # needed for any database module
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
